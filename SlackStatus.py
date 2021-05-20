@@ -24,8 +24,8 @@ class SlackStatus(slackAPI):
         self.url = url
         
         
-        self.statusPool = { "remotework" : {"status_text" : "Presently working remotely @ Pargas",
-                                            "status_emoji" : ":parainen:"},
+        self.statusPool = { "remotework" : {"status_text" : "Working remotely",
+            "status_emoji" : ":house_with_garden:"},
                            "presentwork" : {"status_text" : "Presently working presently @ Dynamicum",
                                      "status_emoji" : ":dynamicum_entrance:"},
                   "free" : {"status_text" : "",
